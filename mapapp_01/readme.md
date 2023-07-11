@@ -7,4 +7,4 @@ dockerでNginxコンテナを準備し、htmlファイルを"/usr/share/nginx/ht
 localhost:80  
 
 # screen shot
-https://github.com/ryujun1117/01_mapapp/blob/a8735948263ef3d1e3d1b7f9855cf8bb2b86fcf9/mapapp_01/screen%20shot.png  
+![screenshot](https://github.com/ryujun1117/01_mapapp/blob/a8735948263ef3d1e3d1b7f9855cf8bb2b86fcf9/mapapp_01/screen%20shot.png)
