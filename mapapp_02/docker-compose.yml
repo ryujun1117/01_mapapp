@@ -1,0 +1,12 @@
+# https://zenn.dev/ttani/articles/docker-nginx-minimal
+
+version: '3' 
+
+services: 
+  nginx: 
+    build: ./
+    image: dockerdemo 
+    ports:
+      - 80:80
+    volumes:
+      - ./src:/usr/share/nginx/html
