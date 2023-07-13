@@ -1,8 +1,8 @@
 
 # contents
+日本地図を可視化してみるシンプルなwebサイトをdockerで構築。    
 
 ## 配信方法
-日本地図を可視化してみるシンプルなwebサイトをdockerで構築。    
 dockerでNginxコンテナを準備し、htmlファイルを"/usr/share/nginx/html/"に配置して配信する。  
 
 ## ピンの可視化方法
