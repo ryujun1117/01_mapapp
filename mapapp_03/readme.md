@@ -4,7 +4,7 @@
 deck.glを表示する
 
 ## 方法：
-deck.glはreactと相性が良いらしく、reactはTypeScriptで書くことがおすすめされているのでそれに従う。
+deck.glはreactと相性が良いらしいのでそれに従う。
 
 ## 実装：
 Node.js WebアプリをDocker上に構築。その上でdeck.glを動作させる
