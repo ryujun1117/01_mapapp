@@ -1,0 +1,14 @@
+# vim docker-compose.yml
+
+version: '3.7'
+services:
+  app:
+    build: ./
+    image: node:alpine
+    volumes:
+      - ./src:/usr/app
+      - /usr/app/node_modules
+      - /usr/app/react-test
+    ports:
+      - 3000:3000
+    tty: true
