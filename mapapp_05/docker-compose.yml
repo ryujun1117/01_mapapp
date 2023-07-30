@@ -1,0 +1,22 @@
+# vim docker-compose.yml
+
+version: '3.7'
+services:
+  nginx:
+    build: ./nginx
+    image: dockerdemo
+    ports:
+      - 80:80
+    volumes:
+      - ./src:/usr/share/nginx/html
+
+  app:
+    build: ./app
+    image: node:alpine
+    volumes:
+      - ./app/src:/usr/app
+      - /usr/app/node_modules
+      - /usr/app/react-test
+    ports:
+      - 3000:3000
+    tty: true
